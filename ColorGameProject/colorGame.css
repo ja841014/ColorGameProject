@@ -1,0 +1,83 @@
+body {
+	background-color: #232323; 
+	margin: 0;
+	font-family: "Avenir";
+}
+/*class use .*/
+.square {
+	width: 30%;
+	background-color: purple;
+	/* the 2 lines code below make the square location*/
+	padding-bottom: 30%;
+	float: left;
+
+	margin: 1.66%;
+	border-radius: 20%;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+}
+/*id use #*/
+#container {
+	margin: 20px auto; /*20px for the up and buttom auto for right and left*/
+	max-width: 600px;
+}
+
+h1 {
+	color: WHITE;
+	line-height: 1.1;
+	font-weight: normal;
+	/*  put the text in the middle */
+	text-align: center;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	/* 可以同時padding 上下 */
+	padding: 20px;
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
+
+#message {
+	/* 以下兩句是用來預留空間 */
+	display: inline-block;
+	width: 20%;
+}
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color: black
+}
+
+.selected {
+	color: ivory;
+	background: steelblue;}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	outline: none;
+	/* fading in and out */
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+}
+
+button:hover {
+	color: ivory;
+	background: steelblue;
+}
+
+.colorhover {
+	background: steelblue;
+}
